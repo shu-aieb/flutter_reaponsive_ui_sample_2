@@ -31,20 +31,26 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
 <div align="center">
   <table>
     <tr>
-      <th align="center">Mobile View (< 600px)</th>
-      <th align="center">Desktop View (> 1100px)</th>
+      <th align="center">Mobile View<br>(< 600px)</th>
+      <th align="center">Tablet View<br>(600px - 1100px)</th>
+      <th align="center">Desktop View<br>(> 1100px)</th>
     </tr>
     <tr>
       <!-- REPLACE WITH YOUR IMAGES -->
       <td align="center">
-        <img src="https://via.placeholder.com/250x500.png?text=Mobile+Drawer+Layout" width="200" alt="Mobile View">
+        <img src="https://via.placeholder.com/200x400.png?text=Mobile" width="160" alt="Mobile View">
         <br />
-        <i>Uses Navigation Drawer & ListView</i>
+        <i>Drawer & List</i>
       </td>
       <td align="center">
-        <img src="https://via.placeholder.com/600x350.png?text=Desktop+Grid+Layout" width="400" alt="Desktop View">
+        <img src="https://via.placeholder.com/300x400.png?text=Tablet" width="240" alt="Tablet View">
         <br />
-        <i>Uses Permanent Sidebar & GridView</i>
+        <i>Nav Rail & Split View</i>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/500x350.png?text=Desktop" width="350" alt="Desktop View">
+        <br />
+        <i>Sidebar & Grid</i>
       </td>
     </tr>
   </table>
