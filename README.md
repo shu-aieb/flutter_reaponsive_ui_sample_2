@@ -1,16 +1,78 @@
-# responsive_ui_sample_2
+<div align="center">
 
-A new Flutter project.
+  <img src="assets/icon/responsive_icon.png" alt="Logo" width="100" height="100">
 
-## Getting Started
+  <h1 align="center">Responsive UI & Layout Architecture</h1>
 
-This project is a starting point for a Flutter application.
+  <p align="center">
+    A technical showcase demonstrating advanced <b>Adaptive Layouts</b> in Flutter using <code>LayoutBuilder</code>, Widget Abstraction, and Constraint analysis.
+    <br />
+    <br />
+    <a href="https://flutter.dev">
+      <img src="https://img.shields.io/badge/Flutter-3.x-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter">
+    </a>
+    <a href="https://dart.dev">
+      <img src="https://img.shields.io/badge/Dart-3.x-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart">
+    </a>
+    <img src="https://img.shields.io/badge/Focus-Responsive%20Design-orange?style=flat-square" alt="Focus">
+  </p>
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🧐 Project Overview
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This project is not just a UI clone; it is a study in **Responsive Design Principles**. The goal was to build a single application that adapts fluidly across Mobile, Tablet, and Desktop environments without relying on heavy third-party responsive frameworks.
+
+Instead of scaling widgets up, the app utilizes **Layout Branching** to render entirely different architectural structures based on available screen width.
+
+## 📱 Adaptive Behavior Gallery
+
+<div align="center">
+  <table>
+    <tr>
+      <th align="center">Mobile View (< 600px)</th>
+      <th align="center">Desktop View (> 1100px)</th>
+    </tr>
+    <tr>
+      <!-- REPLACE WITH YOUR IMAGES -->
+      <td align="center">
+        <img src="https://via.placeholder.com/250x500.png?text=Mobile+Drawer+Layout" width="200" alt="Mobile View">
+        <br />
+        <i>Uses Navigation Drawer & ListView</i>
+      </td>
+      <td align="center">
+        <img src="https://via.placeholder.com/600x350.png?text=Desktop+Grid+Layout" width="400" alt="Desktop View">
+        <br />
+        <i>Uses Permanent Sidebar & GridView</i>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## ⚙️ Technical Implementation
+
+### 1. The `LayoutBuilder` Strategy (Branching)
+I utilized the `LayoutBuilder` widget to access the parent constraint's `maxWidth`. This allows the app to make logical decisions on which scaffold structure to return.
+
+*   **Mobile:** Returns a Scaffold with a `BottomNavigationBar` or `Drawer`.
+*   **Tablet:** Returns a split-view with a vertical rail.
+*   **Desktop:** Returns a wide layout with a permanent sidebar and expanded content areas.
+
+```dart
+// Core Logic Snippet
+Widget build(BuildContext context) {
+  return LayoutBuilder(
+    builder: (context, constraints) {
+      if (constraints.maxWidth > 1200) {
+        return DesktopLayout(); // Separate Widget
+      } else if (constraints.maxWidth > 800) {
+        return TabletLayout();  // Separate Widget
+      } else {
+        return MobileLayout();  // Separate Widget
+      }
+    },
+  );
+}
