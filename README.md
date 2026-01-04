@@ -147,22 +147,3 @@ lib/
 3.  **Resize your browser window** to watch the layout snap between mobile, tablet, and desktop views live.
 
 ---
-
-## 📬 Contact
-
-**Your Name** - [LinkedIn](LINK) - email@example.com
-
-
-***
-
-# 💡 Why this format is different (and better for learning)
-
-1.  **Code Snippets in README:** A recruiter looking at a "Learning" project wants to see code *immediately* without digging into the files. The "Core Logic Snippet" proves you understand the concept.
-2.  **The "Technical Implementation" Section:** This replaces the "Features" section. Instead of saying "App has a login," you say "App uses LayoutBuilder." This highlights your intellect.
-3.  **The Breakpoint Table:** This shows you are precise and have planned your UI logic mathematically.
-4.  **"Key Takeaways & Challenges":** This is a huge bonus for Junior/Mid-level devs. It shows self-reflection. Mentioning "MediaQuery vs LayoutBuilder" proves you truly learned the nuance of the framework.
-
-### How to fill the Gallery for this one:
-*   **Image 1 (Mobile):** Screenshot an iPhone simulator.
-*   **Image 2 (Desktop):** Run the app on Flutter Web or MacOS/Windows. Make the window wide. Take a screenshot of the whole window.
-*   **The GIF:** Record your screen while you drag the corner of the browser window to shrink/expand it. This visual "snap" from mobile to desktop layout is the most impressive thing you can show for this specific project.
