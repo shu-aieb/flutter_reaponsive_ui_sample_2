@@ -1,14 +1,3 @@
-This README format is designed for a **portfolio/educational project**. It shifts the focus from "features" to **"implementation details"** and **"engineering decisions."**
-
-This is perfect for showing recruiters that you understand **under-the-hood Flutter concepts** like constraints, rendering, and responsive design patterns.
-
-***
-
-# 🎓 The Learning/Portfolio Template
-
-Copy the code below into your `README.md`.
-
-```markdown
 <div align="center">
 
   <img src="assets/icon/responsive_icon.png" alt="Logo" width="100" height="100">
@@ -87,7 +76,6 @@ Widget build(BuildContext context) {
     },
   );
 }
-```
 
 ### 2. Widget Abstraction & Reusability
 To maintain clean code (DRY Principles), I abstracted UI components that are shared across layouts but behave differently.
