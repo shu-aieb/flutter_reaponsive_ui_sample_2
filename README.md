@@ -29,6 +29,7 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
 
 ## 📱 Adaptive Behavior Gallery
 
+### 📸 Static Layouts
 <div align="center">
   <table>
     <tr>
@@ -37,7 +38,6 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
       <th align="center">Desktop View<br>(> 1100px)</th>
     </tr>
     <tr>
-      <!-- REPLACE WITH YOUR IMAGES -->
       <td align="center">
         <img width="410" height="770" alt="Mobile View" src="https://github.com/user-attachments/assets/ee164766-d6f5-4c24-b49a-a67dc0a78c24" />
         <br />
@@ -55,6 +55,20 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
       </td>
     </tr>
   </table>
+</div>
+
+<br>
+
+### ⏯️ Live Resizing Demo
+<div align="center">
+  <!-- 
+    1. Upload your video to GitHub (drag and drop it into an issue or readme editor).
+    2. Copy the link (e.g., https://github.com/user-attachments/assets/...).
+    3. Paste it into the src="" below.
+  -->
+  <video src="REPLACE_THIS_WITH_YOUR_GITHUB_VIDEO_LINK_HERE.mp4" width="85%" controls="controls" muted="muted"></video>
+  <br/>
+  <p><i>Watch the application adapt in real-time as the constraints change.</i></p>
 </div>
 
 ---
