@@ -44,7 +44,7 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
         <i>Drawer & ListView</i>
       </td>
       <td align="center">
-        <img src="https://via.placeholder.com/300x400.png?text=Tablet" width="240" alt="Tablet View">
+        <img width="652" height="767" alt="Tablet View" src="https://github.com/user-attachments/assets/44c327d6-179e-4399-99c5-28907ec06046" />
         <br />
         <i>Nav Rail & Split View</i>
       </td>
