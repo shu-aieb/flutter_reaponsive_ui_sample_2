@@ -160,13 +160,10 @@ lib/
 
 1.  Clone the repo:
     ```sh
-    git clone https://github.com/your-username/responsive-project.git
+    git clone https://github.com/shu-aieb/flutter_reaponsive_ui_sample_2.git
     ```
 2.  Run on Chrome or MacOS/Windows to see the resizing in action:
     ```sh
     flutter run -d chrome
     ```
 3.  **Resize your browser window** to watch the layout snap between mobile, tablet, and desktop views live.
-
----
-```
