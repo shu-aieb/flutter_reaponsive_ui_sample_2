@@ -66,7 +66,7 @@ Instead of scaling widgets up, the app utilizes **Layout Branching** to render e
     2. Copy the link (e.g., https://github.com/user-attachments/assets/...).
     3. Paste it into the src="" below.
   -->
-  <video src="REPLACE_THIS_WITH_YOUR_GITHUB_VIDEO_LINK_HERE.mp4" width="85%" controls="controls" muted="muted"></video>
+  <video src="https://github.com/user-attachments/assets/b0c7d872-ab69-4b47-bb13-f017e2eab260" width="85%" controls="controls" muted="muted"></video>
   <br/>
   <p><i>Watch the application adapt in real-time as the constraints change.</i></p>
 </div>
